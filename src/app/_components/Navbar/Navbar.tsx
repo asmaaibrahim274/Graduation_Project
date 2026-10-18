@@ -9,8 +9,7 @@ import {
   DialogContent,
   DialogTitle,
   DialogTrigger,
-} from '../ui/dialog';
-
+} from '@/components/ui/dialog';
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
